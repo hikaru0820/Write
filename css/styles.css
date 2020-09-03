@@ -1,0 +1,186 @@
+body{
+  margin: 60px 120px;
+  font-family: Georgia, '游明朝', YuMincho, 'Hiragino Mincho ProN', Meiryo, serif;
+}
+header h1{
+  font-size:35px ;
+  margin: 0;
+}
+header p{
+  margin: 5px;
+  color: #777;
+  font-size: 18px;
+  font-family:;
+}
+header ul{
+list-style: none;
+display:flex;
+}
+header li{
+  margin-right: 20px;
+  font-size:18px ;
+}
+header > .container{
+display: flex;
+}
+.choices{
+  width: 700px;
+  margin-top: 26px;
+}
+.intro{
+  width: 300px;
+  margin-right: 30px;
+}
+.second {
+  margin-top: 60px;
+}
+.second {
+  font-size: 27px;
+  color: #777;
+  margin-top: 80px;
+}
+.article > .container{
+display: flex;
+}
+.date{
+  width: 300px;
+}
+.theme h1{
+  width: 700px;
+  font-size: 23px;
+}
+.theme p{
+  width: 700px;
+  color: #777;
+  font-size: 16px;
+}
+.page > .container{
+  display: flex;
+  width: 350px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 50px;
+}
+.page > .container > p{
+  margin-top: 60px;
+  margin-right: 20px;
+  color: #777;
+  border: solid 1px #ddd;
+padding: 8px 18px;
+}
+.profile img{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+.profile .container{
+  /* background-color: pink; */
+  width: 360px;
+  height: 300px;
+}
+
+.person1{
+  display: flex;
+  /* background-color: skyblue; */
+  width:400px
+}
+.person1 h1{
+  font-size: 20px;
+}
+.footerright{
+  /* background-color: khaki; */
+  height: 300px;
+  width: 250px;
+  margin-right: 40px;
+}
+.footerright h1{
+  font-size: 16px;
+}
+.footerright p{
+  color: #777;
+}
+.info{
+  /* background-color: greenyellow; */
+  width: 200px;
+  margin-left: 30px;
+}
+.sns{
+  /* background-color: hotpink; */
+  width: 200px;
+}
+.sns ul{
+  display: flex;
+  height: 60px;
+  padding-left: 0;
+}
+.sns ul li{
+  list-style: none;
+  margin-right: 10px;
+}
+.person2{
+  width: 300px;
+  font-size: 17px;
+  color: #777;
+}
+.post{
+  /* background-color: lightcoral; */
+  height: 300px;
+  font-size: small;
+  width: 200px;
+}
+.post h2{
+  font-size: 16px;
+  text-decoration: underline;
+  color: #777;
+}
+.post p{
+  color: #777;
+  font-size: 14px;
+}
+.category{
+  /* background-color: lightseagreen; */
+  height: 300px;
+}
+.category h1{
+  font-size: 17px;
+}
+.category h2{
+  font-size: 16px;
+  text-decoration: underline;
+  color: #777;
+}
+.bottommain{
+  display: flex;
+}
+.input{
+  position: relative;
+  left: 800px;
+}
+.last{
+  display: flex;
+}
+.foot ul{
+  display: flex;
+}
+.foot li{
+  list-style: none;
+  margin-right: 15px;
+}
+.foot{
+  margin-right: 300px;
+  display: flex;
+}
+.icon{
+  font-size: 20px;
+  color:#999 ;
+}
+.icon2{
+  font-size: 30px;
+  color:#999 ;
+}
+.icon:hover{
+  color:#444;
+}
+.gold:hover{
+  color:goldenrod;
+}
